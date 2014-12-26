@@ -11,8 +11,8 @@ def index():
 @service.route('/deeds/userid/<userid>')
 def get_deeds(userid):
     lst = [
-        {'a': 1, 'b': 2},
-        {'a': 5, 'b': 10}
+        {'userid': userid, 'deed': {'a': 66, 'b': 222}},
+        {'userid': userid, 'deed': {'a': 33, 'b': 111}},
         ]
     return jsonify(result=lst)
 
