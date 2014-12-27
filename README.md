@@ -3,7 +3,7 @@ frest
 
 REST with Flask
 
-A Flask API to return a sample json and an ajax front end to display the data.
+A sample Flask API to return a hardcoded json (to be replaced by db/file drawn jsons called deeds) and an html page to display the data with ajax.
 
 Installation
 ------------
@@ -13,8 +13,11 @@ python service.py
 
 
 Usage:
+------
 Console:
+
 http://localhost:8001/
 
 REST:
+
 http://localhost:8001/deeds/userid/akuma14
