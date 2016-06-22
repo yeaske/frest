@@ -1,23 +1,26 @@
-frest
+fRest
 =====
 
-REST with Flask
+### fRest: REST with Flask
+A POC python implementation to show GET/POST/PUT/DELETE REST APIs using Flask library
 
-A sample Flask API to return a hardcoded json (to be replaced by db/file drawn jsons called deeds) and an html page to display the data with ajax.
+### Installation
+* pip install flask
+* python service.py
 
-Installation
-------------
-pip install flask
+###Usage:
 
-python service.py
-
-
-Usage:
-------
 Console:
+> http://localhost:8001/
 
-http://localhost:8001/
+Get All Users:
+> http://localhost:8001/users/all
 
-REST:
+ADD an User
+> http://localhost:8001/users/userinfo
 
-http://localhost:8001/deeds/userid/akuma14
+Update an User
+> http://localhost:8001/users/user/update/id/<id>
+
+Delete an user
+> http://localhost:8001/users/user/remove/id/<id>
