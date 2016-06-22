@@ -1,7 +1,5 @@
 from flask import Flask, render_template, jsonify, request, make_response, abort
 
-# import unicode
-
 service = Flask(__name__)
 
 users = [
