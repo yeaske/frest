@@ -10,7 +10,7 @@ A POC python implementation to show GET/POST/PUT/DELETE REST APIs using Flask li
 
 ###Usage:
 
-Console:
+GET Console:
 > http://localhost:8001/
 
 Get All Users:
@@ -22,5 +22,5 @@ ADD an User
 Update an User
 > http://localhost:8001/users/user/update/id/<id>
 
-Delete an user
+Delete an User
 > http://localhost:8001/users/user/remove/id/<id>
