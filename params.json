@@ -1,6 +1,6 @@
 {
   "name": "Frest",
   "tagline": "REST with Flask",
-  "body": "frest\r\n=====\r\n\r\n### fRest: REST with Flask\r\nA sample Flask API to return a hardcoded json (to be replaced by db/file drawn jsons called deeds) and an html page to display the data with ajax.\r\n\r\n### Installation\r\n* pip install flask\r\n* python service.py\r\n\r\n\r\n### Usage\r\n**Console:**\r\nhttp://localhost:8001/\r\n**REST:**\r\nhttp://localhost:8001/deeds/userid/akuma14",
+  "body": "fRest\r\n=====\r\n\r\n### fRest: REST with Flask\r\nA POC python implementation to show GET/POST/PUT/DELETE REST APIs using Flask library\r\n\r\n### Installation\r\n* pip install flask\r\n* python service.py\r\n\r\n###Usage:\r\n\r\nGET Console:\r\n> http://localhost:8001/\r\n\r\nGet All Users:\r\n> http://localhost:8001/users/all\r\n\r\nADD an User\r\n> http://localhost:8001/users/userinfo\r\n\r\nUpdate an User\r\n> http://localhost:8001/users/user/update/id/<id>\r\n\r\nDelete an User\r\n> http://localhost:8001/users/user/remove/id/<id>\r\n",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }

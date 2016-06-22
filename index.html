@@ -20,12 +20,12 @@
 
     <section class="main-content">
       <h1>
-<a id="frest" class="anchor" href="#frest" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>frest</h1>
+<a id="frest" class="anchor" href="#frest" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>fRest</h1>
 
 <h3>
 <a id="frest-rest-with-flask" class="anchor" href="#frest-rest-with-flask" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>fRest: REST with Flask</h3>
 
-<p>A sample Flask API to return a hardcoded json (to be replaced by db/file drawn jsons called deeds) and an html page to display the data with ajax.</p>
+<p>A POC python implementation to show GET/POST/PUT/DELETE REST APIs using Flask library</p>
 
 <h3>
 <a id="installation" class="anchor" href="#installation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installation</h3>
@@ -36,12 +36,37 @@
 </ul>
 
 <h3>
-<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Usage</h3>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Usage:</h3>
 
-<p><strong>Console:</strong>
-http://localhost:8001/
-<strong>REST:</strong>
-http://localhost:8001/deeds/userid/akuma14</p>
+<p>GET Console:</p>
+
+<blockquote>
+<p>http://localhost:8001/</p>
+</blockquote>
+
+<p>Get All Users:</p>
+
+<blockquote>
+<p>http://localhost:8001/users/all</p>
+</blockquote>
+
+<p>ADD an User</p>
+
+<blockquote>
+<p>http://localhost:8001/users/userinfo</p>
+</blockquote>
+
+<p>Update an User</p>
+
+<blockquote>
+<p>http://localhost:8001/users/user/update/id/</p>
+</blockquote>
+
+<p>Delete an User</p>
+
+<blockquote>
+<p>http://localhost:8001/users/user/remove/id/</p>
+</blockquote>
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/yeaske/frest">Frest</a> is maintained by <a href="https://github.com/yeaske">yeaske</a>.</span>
